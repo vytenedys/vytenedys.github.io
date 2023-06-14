@@ -35,7 +35,7 @@ let icons = document.getElementsByClassName
 			if(parseInt(contentDiv[i].style.height )
 			!=contentDiv[i].scrollHeight){
 			contentDiv[i].style.height = contentDiv[i].scrollHeight + "px";
-			toggles[i].style.color ="crimson";
+			toggles[i].style.color ="#B72E3B";
 			icons[i].classList.remove('fa-plus');
 			icons[i].classList.add('fa-minus');
 }
